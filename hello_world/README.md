@@ -28,9 +28,13 @@ scalar	type since it does not contain multiple values.
 	
 ### Compound Types
 
-**arrays** 
+[**Arrays and Slices**](https://doc.rust-lang.org/stable/rust-by-example/primitives/array.html)
 
+- Arrays are collections of objects of the same type
 - are written as `[1, 2, 3]`
+- Size must be known at compile-time `[1u8; 2]`
+- Slices have a size unknown at compile time
+- Slices contain a pointer to data and length of the slice
 
 
 **[Tuples](https://doc.rust-lang.org/stable/rust-by-example/primitives/tuples.html)** 
