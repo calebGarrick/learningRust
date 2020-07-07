@@ -30,14 +30,15 @@ scalar	type since it does not contain multiple values.
 
 **arrays** 
 
-- are written as [1, 2, 3]
+- are written as `[1, 2, 3]`
 
 
 **[Tuples](https://doc.rust-lang.org/stable/rust-by-example/primitives/tuples.html)** 
 
 - A collection of values of diff types
-- Are written as (1, true, x, y, z)
-- Each 
+- Are written as `myTuple = (1, true, x, y, z)`
+- Elements may be accessed like `myTuple.0` (`1`) or `myTuple.1` (`true`)
+- Tuples may be deconstructed via `let (x, y) = point`, structs must be deconstructed using the above
 
 **Notes**
 
