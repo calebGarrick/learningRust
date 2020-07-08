@@ -18,3 +18,4 @@ ___
 
 ### First
 
+I am starting by creating a new library named "too_many_lists" using the terminal command `cargo new --lib too_many_lists`.
