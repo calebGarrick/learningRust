@@ -34,7 +34,7 @@
 }*/
 
 //testing tuples with activities posted here https://doc.rust-lang.org/stable/rust-by-example/primitives/tuples.html
-{
+//{
 	use std::fmt; // Import `fmt`
 
 	// A structure holding two numbers. `Debug` will be derived so the results can
@@ -90,4 +90,4 @@
 		// println!("What does Point2D look like in binary: {:b}?", point);
 	}
 
-}
+//}
